@@ -159,16 +159,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="favicon.ico" />
     <Content Include="packages.config" />
-    <Content Include="App_Config\Include\Project\%24safeprojectname%24.Website.config" />
-    <Content Include="App_Config\Include\Project\%24safeprojectname%24.Website.Serialization.config" />
-    <Content Include="App_Config\Include\Project\z.%24safeprojectname%24.DevSettings.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\%24safeprojectname%24 Website\Layouts\Default.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Config\Include\Project\" />
+    <Folder Include="Views\%24safeprojectname%24 Website\Layouts\" />
     <Folder Include="Views\%24safeprojectname%24 Website\Sublayouts\" />
   </ItemGroup>
   <ItemGroup>
